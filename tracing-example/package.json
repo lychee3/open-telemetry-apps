@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "@opentelemetry/api": "^0.17.0",
+    "@opentelemetry/core": "^0.17.0",
+    "@opentelemetry/exporter-zipkin": "^0.17.0",
+    "@opentelemetry/instrumentation": "^0.17.0",
+    "@opentelemetry/node": "^0.17.0",
+    "@opentelemetry/plugin-express": "^0.13.1",
+    "@opentelemetry/plugin-http": "^0.17.0",
+    "@opentelemetry/tracing": "^0.17.0",
+    "axios": "^0.21.1",
+    "express": "^4.17.1"
+  },
+  "name": "open-telemetry-apps",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "client": "node client.js",
+    "api1": "node api-server1.js",
+    "api2": "node api-server2.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "description": ""
+}
