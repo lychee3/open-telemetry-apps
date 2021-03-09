@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@opentelemetry/exporter-prometheus": "^0.18.0",
+    "@opentelemetry/metrics": "^0.18.0",
+    "express": "^4.17.1"
+  }
+}
